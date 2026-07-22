@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Manrope, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
+import { SiteHeader } from "./components/site-header";
+import { SiteFooter } from "./components/site-footer";
+import { WhatsappFloat } from "./components/whatsapp-float";
+import { OrganizationJsonLd } from "./components/structured-data";
+import { SITE } from "./lib/site";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -18,28 +23,40 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bodyplant.ng"),
+  metadataBase: new URL(SITE.url),
   title: {
-    default: "Bodyplant Nature Resources — Premium Plant-Based Nutrition",
-    template: "%s · Bodyplant Nature Resources",
+    default: `${SITE.name} — Premium Plant-Based Nutrition`,
+    template: `%s · ${SITE.shortName}`,
   },
-  description:
-    "Bodyplant Nature Resources manufactures premium plant-based food products — Date Syrup & Date Tea — trusted by distributors, supermarkets and families across Nigeria. NAFDAC, SON & HALAL certified.",
+  description: SITE.description,
+  applicationName: SITE.name,
   keywords: [
     "date syrup Nigeria",
     "date tea Nigeria",
-    "natural sweetener",
+    "natural sweetener Nigeria",
+    "healthy sugar alternative",
     "plant-based food distributor Nigeria",
     "wholesale date syrup supplier",
+    "caffeine-free tea Nigeria",
     "NAFDAC certified natural food",
+    "HALAL certified food Nigeria",
   ],
+  authors: [{ name: SITE.name }],
+  creator: SITE.name,
   openGraph: {
-    title: "Bodyplant Nature Resources — Premium Plant-Based Nutrition",
-    description:
-      "Nature's goodness, crafted for healthier living. Premium date syrup & date tea for families, retailers and distributors across Nigeria.",
     type: "website",
-    locale: "en_NG",
+    locale: SITE.locale,
+    url: SITE.url,
+    siteName: SITE.name,
+    title: `${SITE.name} — Premium Plant-Based Nutrition`,
+    description: SITE.description,
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE.name} — Premium Plant-Based Nutrition`,
+    description: SITE.description,
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
@@ -48,11 +65,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${manrope.variable} ${dmSerif.variable} h-full antialiased`}
-    >
-      <body className="min-h-full bg-cream text-charcoal">{children}</body>
+    <html lang="en" className={`${manrope.variable} ${dmSerif.variable} h-full antialiased`}>
+      <body className="min-h-full bg-cream text-charcoal">
+        <OrganizationJsonLd />
+        <SiteHeader />
+        <main id="main">{children}</main>
+        <SiteFooter />
+        <WhatsappFloat />
+      </body>
     </html>
   );
 }

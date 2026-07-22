@@ -38,7 +38,7 @@ const FEATURES = [
 
 export function Features() {
   return (
-    <section id="about" className="relative scroll-mt-24 py-24 sm:py-28 lg:py-32">
+    <section className="relative scroll-mt-24 bg-pure-white py-24 sm:py-28 lg:py-32">
       <div className="container-shell">
         <Reveal className="mx-auto max-w-2xl text-center">
           <span className="text-caption font-bold uppercase tracking-[0.16em] text-earth-orange">
