@@ -15,7 +15,7 @@ export function MadeInNigeria() {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 overflow-hidden">
         <Parallax strength={60} className="h-full">
           <div className="relative h-[130%] w-full">
-            <Image src={img(PHOTO.harvestHands, 1600)} alt="" fill sizes="100vw" className="object-cover" />
+            <Image src={img(PHOTO.hRetail, 1600)} alt="" fill sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-b from-deep-green/70 via-cream/40 to-cream" />
           </div>
         </Parallax>
@@ -41,7 +41,7 @@ export function MadeInNigeria() {
                   transition={{ duration: 8, ease: "easeOut" }}
                   viewport={{ once: true }}
                 >
-                  <Image src={img(PHOTO.produce, 800)} alt="Locally sourced Nigerian produce" width={800} height={480} className="h-full w-full object-cover" />
+                  <Image src={img(PHOTO.hStocking, 800)} alt="Locally sourced Nigerian produce" width={800} height={480} className="h-full w-full object-cover" />
                 </motion.div>
               </div>
               <h3 className="text-h3">Made in Nigeria, sourced in Nigeria</h3>
@@ -76,7 +76,7 @@ export function MadeInNigeria() {
               </p>
             </div>
             <div className="relative mt-8 flex items-center gap-4 rounded-[var(--radius-image)] bg-cream/10 p-4 ring-1 ring-white/15">
-              <Image src={img(PHOTO.dropper, 200)} alt="" width={72} height={72} className="h-16 w-16 rounded-2xl object-cover" />
+              <Image src={img(PHOTO.vPacking, 200)} alt="" width={72} height={72} className="h-16 w-16 rounded-2xl object-cover" />
               <p className="text-small text-cream/85">
                 Wholesome dates for suhoor &amp; iftar — a naturally energising way to break your fast.
               </p>

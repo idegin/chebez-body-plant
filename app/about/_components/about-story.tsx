@@ -51,8 +51,8 @@ export function AboutStory() {
         {/* Media collage */}
         <Reveal delay={0.06} className="relative mx-auto w-full max-w-md lg:max-w-none">
           <KenBurns
-            src={img(PHOTO.harvestHands, 900)}
-            alt="Hands holding a fresh natural harvest"
+            src={img(PHOTO.vFactory, 900)}
+            alt="Bodyplant products crafted in Nigeria"
             className="aspect-[4/5] w-full shadow-[var(--shadow-card)] ring-1 ring-hairline"
           />
           <motion.div
@@ -61,8 +61,8 @@ export function AboutStory() {
             transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
           >
             <Image
-              src={img(PHOTO.produce, 500)}
-              alt="Fresh natural produce spread"
+              src={img(PHOTO.hLounge, 500)}
+              alt="Families enjoying Bodyplant products"
               width={500}
               height={500}
               className="aspect-square object-cover"

@@ -28,7 +28,7 @@ export function WhyDates() {
             </p>
           </Reveal>
           <Reveal delay={0.1} className="mt-8">
-            <KenBurns src={img(PHOTO.breakfast, 900)} alt="Healthy date-based breakfast" className="aspect-[16/10] w-full shadow-[var(--shadow-card)]" />
+            <KenBurns src={img(PHOTO.hCalm, 900)} alt="Healthy date-based breakfast" className="aspect-[16/10] w-full shadow-[var(--shadow-card)]" />
           </Reveal>
         </div>
 

@@ -4,7 +4,6 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { Reveal, Stagger, staggerItem } from "../ui/reveal";
 import { KenBurns } from "../ui/media";
-import { VideoBackdrop } from "../ui/video-backdrop";
 import { ImageBackdrop } from "../ui/image-backdrop";
 import { Button } from "../ui/button";
 import { CheckIcon, LeafIcon } from "../ui/icons";
@@ -29,18 +28,29 @@ function SyrupSection() {
   return (
     <section className="relative overflow-hidden bg-[#20130c] py-24 text-cream sm:py-28 lg:py-32">
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-90">
-        <ImageBackdrop src={img(syrup.hero, 1400)} overlay="bg-[#20130c]/72" />
+        <ImageBackdrop src={VIDEO.gifH} overlay="bg-[#20130c]/74" unoptimized priority />
       </div>
 
       <div className="container-shell grid items-center gap-14 lg:grid-cols-2">
         {/* Media collage */}
         <Reveal className="relative order-2 lg:order-1">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[var(--radius-image)] shadow-[var(--shadow-card)] ring-1 ring-white/10">
-            <VideoBackdrop
-              src={VIDEO.feature}
-              poster={img(syrup.gallery[0], 900)}
-              overlay="bg-gradient-to-t from-black/25 to-transparent"
-            />
+            {reduce ? (
+              <Image src={img(syrup.gallery[0], 900)} alt="Bodyplant Date Syrup" fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
+            ) : (
+              <video
+                className="absolute inset-0 h-full w-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster={img(syrup.gallery[0], 900)}
+              >
+                <source src={VIDEO.feature} type="video/mp4" />
+              </video>
+            )}
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
           </div>
           <motion.div
             className="absolute -bottom-6 -right-4 w-44 overflow-hidden rounded-[var(--radius-image)] shadow-[var(--shadow-card)] ring-4 ring-[#20130c] sm:w-56"
