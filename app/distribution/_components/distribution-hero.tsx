@@ -5,7 +5,7 @@ import { ImageBackdrop } from "@/app/components/ui/image-backdrop";
 import { Button } from "@/app/components/ui/button";
 import { LeafIcon } from "@/app/components/ui/icons";
 import { staggerContainer, staggerItem } from "@/app/components/ui/reveal";
-import { img, PHOTO } from "@/app/lib/media";
+import { VIDEO } from "@/app/lib/media";
 import { CTA } from "@/app/lib/site";
 
 const STATS = [
@@ -19,8 +19,10 @@ export function DistributionHero() {
   return (
     <section className="relative flex min-h-[92vh] items-center overflow-hidden pt-32 pb-24 text-cream sm:pt-40 sm:pb-32">
       <ImageBackdrop
-        src={img(PHOTO.hDelivery, 1600)}
+        src={VIDEO.gifH1}
         overlay="bg-gradient-to-b from-[#0a3d1e]/88 via-[#0a3d1e]/60 to-[#0a3d1e]/92"
+        unoptimized
+        priority
       />
 
       {/* ambient botanical accents */}

@@ -88,6 +88,7 @@ export const VIDEO = {
   feature: "/videos/body-plant-7.mp4",
   gif: "/videos/body-plant.gif",
   gifH: "/videos/h-body-plant.gif", // horizontal animated brand loop (wide backgrounds)
+  gifH1: "/videos/h-body-plan-1.gif", // second horizontal animated brand loop
   // legacy aliases (kept so any remaining references resolve to a real asset)
   amberPour: "/videos/body-plant-4.mp4",
   leaves: "/videos/body-plant-7.mp4",
