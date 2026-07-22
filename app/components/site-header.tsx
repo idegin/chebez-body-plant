@@ -33,6 +33,9 @@ export function SiteHeader() {
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
+  // Sub-pages open with a dark video hero → use light header text until scrolled.
+  const onDark = !scrolled && pathname !== "/";
+
   return (
     <>
       <a
@@ -71,7 +74,9 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={isActive(item.href) ? "page" : undefined}
                   className={`group relative rounded-full px-3.5 py-2 text-[0.95rem] font-medium transition-colors ${
-                    isActive(item.href) ? "text-deep-green" : "text-charcoal/80 hover:text-deep-green"
+                    isActive(item.href)
+                      ? onDark ? "text-cream" : "text-deep-green"
+                      : onDark ? "text-cream/85 hover:text-cream" : "text-charcoal/80 hover:text-deep-green"
                   }`}
                 >
                   {item.label}
@@ -87,9 +92,11 @@ export function SiteHeader() {
             <div className="hidden items-center gap-3 lg:flex">
               <a
                 href={CONTACT.salesHref}
-                className="group inline-flex items-center gap-2 rounded-full px-3 py-2 text-[0.95rem] font-semibold text-deep-green transition-colors hover:text-earth-orange"
+                className={`group inline-flex items-center gap-2 rounded-full px-3 py-2 text-[0.95rem] font-semibold transition-colors ${
+                  onDark ? "text-cream hover:text-natural-green" : "text-deep-green hover:text-earth-orange"
+                }`}
               >
-                <span className="grid h-8 w-8 place-items-center rounded-full bg-light-sage transition-colors group-hover:bg-earth-orange/15">
+                <span className={`grid h-8 w-8 place-items-center rounded-full transition-colors ${onDark ? "bg-cream/15 group-hover:bg-cream/25" : "bg-light-sage group-hover:bg-earth-orange/15"}`}>
                   <PhoneIcon className="h-4 w-4" />
                 </span>
                 Call Sales
