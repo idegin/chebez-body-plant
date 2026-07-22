@@ -10,7 +10,7 @@ import { CtaBanner } from "@/app/components/cta-banner";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Bodyplant Nature Resources is a Nigerian health and wellness company creating premium plant-based nutrition — Date Syrup & Date Tea. Discover our story, mission, values and manufacturing philosophy.",
+    "Bodyplant Nature Resources is a Nigerian health and wellness company creating premium plant-based nutrition — Date Syrup & Date Seed Infusion. Discover our story, mission, values and manufacturing philosophy.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "Our Story — Natural Nutrition, Inspired by Nature",

@@ -47,7 +47,7 @@ export function Hero() {
 
             <motion.p variants={staggerItem} className="mt-6 max-w-xl text-body-lg leading-relaxed text-muted">
               We create premium plant-based food products that make healthy living simple, delicious and accessible — from
-              naturally sweet date syrup to caffeine-free roasted date tea, trusted by distributors, supermarkets and families.
+              naturally sweet date syrup to caffeine-free roasted date seed infusion, trusted by distributors, supermarkets and families.
             </motion.p>
 
             <motion.div variants={staggerItem} className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -98,7 +98,7 @@ export function Hero() {
                 <span className="w-fit rounded-full bg-cream/90 px-3 py-1 text-caption font-bold uppercase tracking-[0.14em] text-deep-green">
                   Flagship Products
                 </span>
-                <p className="mt-4 font-serif text-h3 leading-tight text-cream">Date Syrup &amp; Date Tea</p>
+                <p className="mt-4 font-serif text-h3 leading-tight text-cream">Date Syrup &amp; Date Seed Infusion</p>
                 <p className="mt-2 max-w-xs text-small text-cream/85">
                   Naturally sweet. Wholesomely simple. Crafted from carefully selected dates.
                 </p>

@@ -34,7 +34,7 @@ export function AboutStory() {
               itself.
             </p>
             <p>
-              Our flagship products — Bodyplant Date Syrup and Bodyplant Date Tea — represent this philosophy.
+              Our flagship products — Bodyplant Date Syrup and Bodyplant Date Seed Infusion — represent this philosophy.
               Made from carefully selected dates, they deliver wholesome nutrition, authentic flavour and
               everyday versatility while supporting healthier lifestyles for children and adults alike.
             </p>

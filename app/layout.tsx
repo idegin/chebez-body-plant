@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   applicationName: SITE.name,
   keywords: [
     "date syrup Nigeria",
-    "date tea Nigeria",
+    "date seed infusion Nigeria",
     "natural sweetener Nigeria",
     "healthy sugar alternative",
     "plant-based food distributor Nigeria",

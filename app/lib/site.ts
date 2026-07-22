@@ -12,7 +12,7 @@ export const SITE = {
   locale: "en_NG",
   tagline: "Nature's Goodness. Everyday Wellness.",
   description:
-    "Bodyplant Nature Resources manufactures premium plant-based food products — Date Syrup & Date Tea — trusted by distributors, supermarkets and families across Nigeria. NAFDAC, SON & HALAL certified.",
+    "Bodyplant Nature Resources manufactures premium plant-based food products — Date Syrup & Date Seed Infusion — trusted by distributors, supermarkets and families across Nigeria. NAFDAC, SON & HALAL certified.",
 } as const;
 
 export const CONTACT = {
@@ -26,8 +26,8 @@ export const CONTACT = {
   emailHref: "mailto:hello@bodyplant.ng",
   salesEmail: "sales@bodyplant.ng",
   salesEmailHref: "mailto:sales@bodyplant.ng",
-  addressLine: "Lagos, Nigeria",
-  addressFull: "Bodyplant Nature Resources, Lagos, Nigeria",
+  addressLine: "Abuja, Nigeria",
+  addressFull: "Bodyplant Nature Resources, Abuja, Nigeria",
   hours: [
     { day: "Monday – Friday", time: "8:00am – 6:00pm" },
     { day: "Saturday", time: "9:00am – 4:00pm" },
@@ -107,14 +107,14 @@ export const PRODUCTS: Product[] = [
     caffeineFree: false,
   },
   {
-    slug: "date-tea",
-    name: "Bodyplant Date Tea",
-    shortName: "Date Tea",
+    slug: "date-seed-infusion",
+    name: "Bodyplant Date Seed Infusion",
+    shortName: "Date Seed Infusion",
     tagline: "A caffeine-free, naturally sweet coffee alternative.",
     summary:
-      "Roasted date tea — warm, comforting and naturally caffeine-free, for calm energy any time of day.",
+      "Roasted date seed infusion — warm, comforting and naturally caffeine-free, for calm energy any time of day.",
     description:
-      "Bodyplant Date Tea is a caffeine-free, naturally sweet infusion made from carefully roasted dates. Warm, comforting and rich in natural antioxidants, it's the perfect coffee alternative for the whole family — enjoyed any time of day.",
+      "Bodyplant Date Seed Infusion is a caffeine-free, naturally sweet infusion made from carefully roasted date seeds. Warm, comforting and rich in natural antioxidants, it's the perfect coffee alternative for the whole family — enjoyed any time of day.",
     benefits: [
       "Naturally caffeine-free — calm energy, no jitters",
       "Rich in natural antioxidants",

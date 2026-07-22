@@ -13,7 +13,7 @@ const BENEFITS: Benefit[] = [
   },
   {
     title: "Premium Products",
-    body: "Certified, naturally made Date Syrup and Date Tea that customers trust and return for.",
+    body: "Certified, naturally made Date Syrup and Date Seed Infusion that customers trust and return for.",
     icon: "leaf",
   },
   {

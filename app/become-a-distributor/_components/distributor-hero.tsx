@@ -57,7 +57,7 @@ export function DistributorHero() {
             className="mt-6 max-w-xl text-body-lg leading-relaxed text-cream/85"
           >
             Partner with a trusted Nigerian manufacturer of premium plant-based products. Stock Date Syrup
-            and Date Tea your customers keep coming back for — backed by consistent quality, dependable
+            and Date Seed Infusion your customers keep coming back for — backed by consistent quality, dependable
             supply and dedicated account management.
           </motion.p>
 

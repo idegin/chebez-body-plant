@@ -58,34 +58,34 @@ export const FAQ_CATEGORIES: FaqCategory[] = [
     ],
   },
   {
-    id: "date-tea",
-    label: "Date Tea",
+    id: "date-seed-infusion",
+    label: "Date Seed Infusion",
     blurb: "A caffeine-free, naturally sweet coffee alternative.",
     icon: "tea",
     items: [
       {
-        q: "Is Bodyplant Date Tea really caffeine-free?",
-        a: "Yes — Date Tea is naturally caffeine-free. It's made from carefully roasted dates, so you get warm, comforting flavour and calm energy with none of the jitters. It's a soothing coffee alternative you can enjoy any time, morning or night.",
+        q: "Is Bodyplant Date Seed Infusion really caffeine-free?",
+        a: "Yes — Date Seed Infusion is naturally caffeine-free. It's made from carefully roasted date seeds, so you get warm, comforting flavour and calm energy with none of the jitters. It's a soothing coffee alternative you can enjoy any time, morning or night.",
       },
       {
-        q: "Does Date Tea contain added sugar?",
-        a: "No added sugar needed. The roasted dates give the tea a gentle, natural sweetness on their own, so it tastes rounded and satisfying without anything artificial.",
+        q: "Does Date Seed Infusion contain added sugar?",
+        a: "No added sugar needed. The roasted date seeds give the tea a gentle, natural sweetness on their own, so it tastes rounded and satisfying without anything artificial.",
       },
       {
-        q: "How do I prepare Date Tea?",
+        q: "How do I prepare Date Seed Infusion?",
         a: "Steep one tea bag in freshly boiled water for 3–5 minutes. Enjoy it plain, or add a splash of milk for a creamier, coffee-style cup. It's a lovely wind-down drink at the end of the day.",
       },
       {
-        q: "What are the benefits of Date Tea?",
-        a: "Date Tea is naturally caffeine-free, rich in natural antioxidants, and naturally sweet without added sugar — a comforting, family-friendly alternative to coffee and heavily sweetened drinks.",
+        q: "What are the benefits of Date Seed Infusion?",
+        a: "Date Seed Infusion is naturally caffeine-free, rich in natural antioxidants, and naturally sweet without added sugar — a comforting, family-friendly alternative to coffee and heavily sweetened drinks.",
       },
       {
         q: "Can the whole family drink it?",
-        a: "Yes. Because it's caffeine-free and naturally sweet, Date Tea is a comforting choice for all ages — a gentle, warming drink families can share together.",
+        a: "Yes. Because it's caffeine-free and naturally sweet, Date Seed Infusion is a comforting choice for all ages — a gentle, warming drink families can share together.",
       },
       {
-        q: "What pack sizes does Date Tea come in?",
-        a: "Date Tea is available in 20-bag and 40-bag retail packs, plus bulk and wholesale cartons for trade partners. Contact our sales team for wholesale carton quantities and pricing.",
+        q: "What pack sizes does Date Seed Infusion come in?",
+        a: "Date Seed Infusion is available in 20-bag and 40-bag retail packs, plus bulk and wholesale cartons for trade partners. Contact our sales team for wholesale carton quantities and pricing.",
       },
     ],
   },
@@ -161,7 +161,7 @@ export const FAQ_CATEGORIES: FaqCategory[] = [
       },
       {
         q: "Are the products 100% natural and plant-based?",
-        a: "They are. Both Date Syrup and Date Tea are 100% plant-based, made from carefully selected dates with no refined sugar and no artificial additives — honest, natural nutrition, exactly as nature intended.",
+        a: "They are. Both Date Syrup and Date Seed Infusion are 100% plant-based, made from carefully selected dates with no refined sugar and no artificial additives — honest, natural nutrition, exactly as nature intended.",
       },
       {
         q: "Where are Bodyplant products made?",

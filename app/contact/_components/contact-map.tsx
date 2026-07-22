@@ -32,7 +32,7 @@ export function ContactMap() {
             {/* cinematic backdrop */}
             <KenBurns
               src={img(PHOTO.kitchen, 1600)}
-              alt="Bodyplant production kitchen in Lagos, Nigeria"
+              alt="Bodyplant production kitchen in Abuja, Nigeria"
               rounded="rounded-[var(--radius-hero)]"
               className="h-[360px] w-full sm:h-[440px]"
               sizes="(max-width: 1320px) 100vw, 1320px"

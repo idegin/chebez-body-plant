@@ -9,7 +9,7 @@ import { CtaBanner } from "@/app/components/cta-banner";
 export const metadata: Metadata = {
   title: "Distribution",
   description:
-    "Nigeria's trusted distribution partner for plant-based nutrition. Bodyplant supplies supermarkets, pharmacies, retailers, hotels, restaurants and bulk buyers with reliable, certified Date Syrup & Date Tea — nationwide.",
+    "Nigeria's trusted distribution partner for plant-based nutrition. Bodyplant supplies supermarkets, pharmacies, retailers, hotels, restaurants and bulk buyers with reliable, certified Date Syrup & Date Seed Infusion — nationwide.",
   alternates: { canonical: "/distribution" },
   openGraph: {
     title: "Nigeria's Trusted Distribution Partner for Plant-Based Nutrition",

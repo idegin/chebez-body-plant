@@ -78,7 +78,7 @@ export function Comparison() {
           </div>
 
           <p className="mt-5 text-center text-caption text-muted">
-            &ldquo;—&rdquo; indicates not applicable. Date Tea is naturally caffeine-free; Date Syrup is a sweetener.
+            &ldquo;—&rdquo; indicates not applicable. Date Seed Infusion is naturally caffeine-free; Date Syrup is a sweetener.
           </p>
         </Reveal>
       </div>

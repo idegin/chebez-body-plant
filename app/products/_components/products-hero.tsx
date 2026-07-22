@@ -90,11 +90,11 @@ export function ProductsHero() {
           <motion.div style={{ y: yB }} className="mt-8">
             <KenBurns
               src={img(PRODUCTS[1].hero, 700)}
-              alt="Bodyplant Date Tea"
+              alt="Bodyplant Date Seed Infusion"
               className="aspect-[3/4] w-full shadow-[var(--shadow-card)] ring-1 ring-white/50"
             />
             <span className="mt-3 block text-center text-caption font-bold uppercase tracking-[0.14em] text-deep-green">
-              Date Tea
+              Date Seed Infusion
             </span>
           </motion.div>
         </motion.div>

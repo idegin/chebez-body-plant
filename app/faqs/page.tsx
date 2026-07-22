@@ -8,12 +8,12 @@ import { ALL_FAQS } from "./_components/data";
 export const metadata: Metadata = {
   title: "FAQs",
   description:
-    "Answers to common questions about Bodyplant Date Syrup & Date Tea — 100% natural, caffeine-free, NAFDAC, SON & HALAL certified — plus wholesale distribution, orders and nationwide delivery across Nigeria.",
+    "Answers to common questions about Bodyplant Date Syrup & Date Seed Infusion — 100% natural, caffeine-free, NAFDAC, SON & HALAL certified — plus wholesale distribution, orders and nationwide delivery across Nigeria.",
   alternates: { canonical: "/faqs" },
   openGraph: {
     title: "Frequently Asked Questions",
     description:
-      "Everything about our natural Date Syrup & Date Tea, certifications, and how to partner with Bodyplant as a distributor or retailer.",
+      "Everything about our natural Date Syrup & Date Seed Infusion, certifications, and how to partner with Bodyplant as a distributor or retailer.",
     url: "/faqs",
   },
 };

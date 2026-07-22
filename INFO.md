@@ -48,7 +48,7 @@ In a world increasingly filled with artificial additives, refined sugars, and hi
 
 Rather than creating products filled with unnecessary ingredients, we chose to let nature speak for itself.
 
-Our flagship products—Bodyplant Date Syrup and Bodyplant Date Tea—represent this philosophy. Made from carefully selected dates, they deliver wholesome nutrition, authentic flavour, and everyday versatility while supporting healthier lifestyles for children and adults alike.
+Our flagship products—Bodyplant Date Syrup and Bodyplant Date Seed Infusion—represent this philosophy. Made from carefully selected dates, they deliver wholesome nutrition, authentic flavour, and everyday versatility while supporting healthier lifestyles for children and adults alike.
 
 As we continue to grow, our commitment remains unchanged: create products people can trust, distribute them responsibly, and make healthier choices available to more families across Nigeria and beyond.
 
@@ -269,7 +269,7 @@ Good enough is never enough.
 
 # Elevator Pitch
 
-Bodyplant Nature Resources is a Nigerian manufacturer of premium plant-based food products dedicated to helping people live healthier lives naturally. Through carefully crafted products like Bodyplant Date Syrup and Bodyplant Date Tea, we provide wholesome, natural alternatives that families trust and distributors proudly supply.
+Bodyplant Nature Resources is a Nigerian manufacturer of premium plant-based food products dedicated to helping people live healthier lives naturally. Through carefully crafted products like Bodyplant Date Syrup and Bodyplant Date Seed Infusion, we provide wholesome, natural alternatives that families trust and distributors proudly supply.
 
 ---
 
@@ -283,7 +283,7 @@ Bodyplant Nature Resources produces premium plant-based food products made from 
 
 Bodyplant Nature Resources is a Nigerian health and wellness company focused on manufacturing and distributing premium plant-based food products. Guided by a passion for natural nutrition, we create wholesome alternatives that help individuals and families embrace healthier lifestyles without compromising on taste or quality.
 
-Our flagship products, Bodyplant Date Syrup and Bodyplant Date Tea, are made from carefully selected dates and crafted to meet the highest standards of quality, safety, and consistency. Certified by NAFDAC, SON, and HALAL authorities, our products are trusted by consumers, retailers, and distribution partners across Nigeria.
+Our flagship products, Bodyplant Date Syrup and Bodyplant Date Seed Infusion, are made from carefully selected dates and crafted to meet the highest standards of quality, safety, and consistency. Certified by NAFDAC, SON, and HALAL authorities, our products are trusted by consumers, retailers, and distribution partners across Nigeria.
 
 As we continue to grow, we remain committed to innovation, sustainability, and making healthier food choices more accessible to communities everywhere.
 
@@ -342,7 +342,7 @@ Partner with a reliable manufacturer delivering premium natural products with co
 
 ## Supporting Copy
 
-At Bodyplant Nature Resources, we create premium plant-based food products that make healthy living simple, delicious, and accessible. From naturally sweet date syrup to caffeine-free roasted date tea, every product is thoughtfully made to nourish families and support healthier everyday choices.
+At Bodyplant Nature Resources, we create premium plant-based food products that make healthy living simple, delicious, and accessible. From naturally sweet date syrup to caffeine-free roasted date seed infusion, every product is thoughtfully made to nourish families and support healthier everyday choices.
 
 ## Primary CTA
 

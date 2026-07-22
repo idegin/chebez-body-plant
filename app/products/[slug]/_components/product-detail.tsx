@@ -369,8 +369,8 @@ function faqsFor(product: Product) {
   if (product.caffeineFree) {
     return [
       {
-        q: "Does Date Tea contain caffeine?",
-        a: "No. Date Tea is naturally caffeine-free, making it a calm, comforting coffee alternative you can enjoy any time — morning or night.",
+        q: "Does Date Seed Infusion contain caffeine?",
+        a: "No. Date Seed Infusion is naturally caffeine-free, making it a calm, comforting coffee alternative you can enjoy any time — morning or night.",
       },
       {
         q: "How do I prepare it?",

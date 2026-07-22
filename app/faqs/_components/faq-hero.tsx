@@ -50,7 +50,7 @@ export function FaqHero() {
             variants={staggerItem}
             className="mx-auto mt-6 max-w-2xl text-body-lg leading-relaxed text-cream/85"
           >
-            Everything you need to know about our natural Date Syrup and Date Tea, our certifications, and
+            Everything you need to know about our natural Date Syrup and Date Seed Infusion, our certifications, and
             how to partner with Bodyplant as a distributor or retailer. Can&apos;t find your answer? We&apos;re
             just a message away.
           </motion.p>

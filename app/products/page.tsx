@@ -7,14 +7,14 @@ import { BreadcrumbJsonLd } from "@/app/components/structured-data";
 import { PRODUCTS, SITE } from "@/app/lib/site";
 
 export const metadata: Metadata = {
-  title: "Our Products — Date Syrup & Date Tea",
+  title: "Our Products — Date Syrup & Date Seed Infusion",
   description:
-    "Explore Bodyplant's plant-based range: naturally sweet Date Syrup and caffeine-free Date Tea. Made from carefully selected dates. NAFDAC, SON & HALAL certified.",
+    "Explore Bodyplant's plant-based range: naturally sweet Date Syrup and caffeine-free Date Seed Infusion. Made from carefully selected dates. NAFDAC, SON & HALAL certified.",
   alternates: { canonical: "/products" },
   openGraph: {
-    title: `Our Products — Date Syrup & Date Tea · ${SITE.shortName}`,
+    title: `Our Products — Date Syrup & Date Seed Infusion · ${SITE.shortName}`,
     description:
-      "Explore Bodyplant's plant-based range: naturally sweet Date Syrup and caffeine-free Date Tea.",
+      "Explore Bodyplant's plant-based range: naturally sweet Date Syrup and caffeine-free Date Seed Infusion.",
     url: `${SITE.url}/products`,
   },
 };

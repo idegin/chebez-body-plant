@@ -53,7 +53,7 @@ About
 
 Products
  ├── Bodyplant Date Syrup
- └── Bodyplant Date Tea
+ └── Bodyplant Date Seed Infusion
 
 Distribution
 
@@ -123,7 +123,7 @@ Visual:
 * Nigerian family
 * Healthy breakfast
 * Date syrup
-* Date tea
+* Date Seed Infusion
 * Natural ingredients
 
 Headline
@@ -145,7 +145,7 @@ Right Side
 Product showcase
 
 * Date Syrup
-* Date Tea
+* Date Seed Infusion
 
 Floating trust badges
 
@@ -246,7 +246,7 @@ View Product
 
 ---
 
-## Bodyplant Date Tea
+## Bodyplant Date Seed Infusion
 
 Image
 
@@ -442,7 +442,7 @@ Contact
 
 Date Syrup
 
-Date Tea
+Date Seed Infusion
 
 ---
 
@@ -606,7 +606,7 @@ Request Pricing
 
 Product Two
 
-Bodyplant Date Tea
+Bodyplant Date Seed Infusion
 
 Large imagery
 
@@ -628,7 +628,7 @@ Request Pricing
 
 Comparison Table
 
-| Feature         | Date Syrup | Date Tea |
+| Feature         | Date Syrup | Date Seed Infusion |
 | --------------- | ---------- | -------- |
 | Natural         | ✓          | ✓        |
 | Plant Based     | ✓          | ✓        |
@@ -874,7 +874,7 @@ Categorized
 
 ## Date Syrup
 
-## Date Tea
+## Date Seed Infusion
 
 ## Distribution
 
@@ -981,7 +981,7 @@ To improve organic visibility and capture commercial intent, create dedicated la
 * Healthy Sugar Alternative
 * Plant-Based Food Products Nigeria
 * Wholesale Date Syrup Supplier
-* Date Tea Nigeria
+* Date Seed Infusion Nigeria
 * Caffeine-Free Tea Nigeria
 * Healthy Breakfast Alternatives
 * NAFDAC Certified Natural Food Products

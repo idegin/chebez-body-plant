@@ -5,5 +5,5 @@ export const contentType = ogContentType;
 export const alt = OG_ALT;
 
 export default function Image() {
-  return renderOg({ title: "Our Products — Date Syrup & Date Tea", eyebrow: "Bodyplant Products" });
+  return renderOg({ title: "Our Products — Date Syrup & Date Seed Infusion", eyebrow: "Bodyplant Products" });
 }

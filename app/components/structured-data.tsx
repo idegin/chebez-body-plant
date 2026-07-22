@@ -15,7 +15,7 @@ export function OrganizationJsonLd() {
     telephone: CONTACT.phoneDisplay,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Lagos",
+      addressLocality: "Abuja",
       addressCountry: "NG",
     },
     sameAs: SOCIALS.map((s) => s.href),

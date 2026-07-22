@@ -91,7 +91,7 @@ function SyrupSection() {
   );
 }
 
-/* ============ 02 · DATE TEA — light sage, editorial collage ============ */
+/* ============ 02 · DATE SEED INFUSION — light sage, editorial collage ============ */
 function TeaSection() {
   const reduce = useReducedMotion();
   return (
@@ -104,7 +104,7 @@ function TeaSection() {
         <div>
           <Reveal>
             <span className="font-serif text-h2 text-deep-green/80">02</span>
-            <span className="ml-3 text-caption font-bold uppercase tracking-[0.18em] text-deep-green">Date Tea</span>
+            <span className="ml-3 text-caption font-bold uppercase tracking-[0.18em] text-deep-green">Date Seed Infusion</span>
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="mt-4 max-w-md text-h1">{tea.tagline}</h2>
@@ -135,7 +135,7 @@ function TeaSection() {
         <Reveal className="relative mx-auto w-full max-w-md lg:max-w-none">
           <KenBurns
             src={img(tea.hero, 900)}
-            alt="Bodyplant Date Tea"
+            alt="Bodyplant Date Seed Infusion"
             className="aspect-[4/5] w-full shadow-[var(--shadow-card)] ring-1 ring-white/50"
           />
           <motion.div
@@ -143,7 +143,7 @@ function TeaSection() {
             animate={reduce ? undefined : { y: [0, 12, 0] }}
             transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
           >
-            <Image src={img(tea.gallery[1], 500)} alt="Roasted date tea leaves" width={500} height={500} className="aspect-square object-cover" />
+            <Image src={img(tea.gallery[1], 500)} alt="Bodyplant Date Seed Infusion" width={500} height={500} className="aspect-square object-cover" />
           </motion.div>
           <div className="absolute right-4 top-4 flex items-center gap-2 rounded-[var(--radius-pill)] bg-pure-white/90 px-4 py-2 text-caption font-bold text-deep-green shadow-[var(--shadow-float)] backdrop-blur">
             <LeafIcon className="h-4 w-4 text-natural-green" /> Caffeine-Free

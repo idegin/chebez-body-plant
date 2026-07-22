@@ -13,7 +13,7 @@ const FAQS: QA[] = [
   },
   {
     q: "Which products can I stock?",
-    a: "Our full range is available for wholesale — Bodyplant Date Syrup and Bodyplant Date Tea — in retail and bulk packaging, all NAFDAC, SON and HALAL certified.",
+    a: "Our full range is available for wholesale — Bodyplant Date Syrup and Bodyplant Date Seed Infusion — in retail and bulk packaging, all NAFDAC, SON and HALAL certified.",
   },
   {
     q: "Do you deliver nationwide?",

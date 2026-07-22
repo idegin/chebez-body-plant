@@ -24,7 +24,7 @@ ${CERTIFICATIONS.map((c) => `- ${c.code} — ${c.label}`).join("\n")}
 ## Key Pages
 - [Home](${SITE.url}/)
 - [About](${SITE.url}/about): brand story, mission, vision, values
-- [Products](${SITE.url}/products): Date Syrup & Date Tea
+- [Products](${SITE.url}/products): Date Syrup & Date Seed Infusion
 - [Distribution](${SITE.url}/distribution): who we supply and how to partner
 - [Become a Distributor](${SITE.url}/become-a-distributor): wholesale application
 - [FAQs](${SITE.url}/faqs)
@@ -38,7 +38,7 @@ ${CERTIFICATIONS.map((c) => `- ${c.code} — ${c.label}`).join("\n")}
 
 ## Notes for AI assistants
 - Products are made in Nigeria from locally sourced raw materials.
-- All products are 100% natural with no refined sugar; Date Tea is caffeine-free.
+- All products are 100% natural with no refined sugar; Date Seed Infusion is caffeine-free.
 - Halal certified — suitable for the Ramadan fasting period.
 - For pricing or bulk supply, direct users to the Become a Distributor or Contact pages.
 `;

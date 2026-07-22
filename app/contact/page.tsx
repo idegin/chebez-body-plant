@@ -9,7 +9,7 @@ import { SITE, CONTACT, SOCIALS } from "@/app/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Bodyplant Nature Resources. Speak with sales, ask about wholesale distribution, or send a general enquiry. Phone, email, WhatsApp and business hours for our Lagos, Nigeria team.",
+    "Get in touch with Bodyplant Nature Resources. Speak with sales, ask about wholesale distribution, or send a general enquiry. Phone, email, WhatsApp and business hours for our Abuja, Nigeria team.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Let's Talk — Contact Bodyplant Nature Resources",
@@ -30,7 +30,7 @@ const jsonLd = {
   email: CONTACT.email,
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Lagos",
+    addressLocality: "Abuja",
     addressCountry: "NG",
     streetAddress: CONTACT.addressLine,
   },
