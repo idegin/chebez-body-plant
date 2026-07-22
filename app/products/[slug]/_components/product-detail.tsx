@@ -5,18 +5,17 @@ import { useState } from "react";
 import { motion, useReducedMotion, AnimatePresence } from "motion/react";
 import { Reveal, Stagger, staggerItem } from "@/app/components/ui/reveal";
 import { KenBurns, Parallax } from "@/app/components/ui/media";
-import { VideoBackdrop } from "@/app/components/ui/video-backdrop";
+import { ImageBackdrop } from "@/app/components/ui/image-backdrop";
 import { Button } from "@/app/components/ui/button";
 import { CheckIcon, LeafIcon, ArrowIcon } from "@/app/components/ui/icons";
 import { CTA, CERTIFICATIONS, type Product } from "@/app/lib/site";
-import { img, VIDEO } from "@/app/lib/media";
+import { img } from "@/app/lib/media";
 
 type Accent = {
   eyebrow: string;
   chipRing: string;
   chipText: string;
   ringSoft: string;
-  video: string;
   overlay: string;
   numberText: string;
   badgeBg: string;
@@ -31,7 +30,6 @@ const ACCENTS: Record<Product["accent"], Accent> = {
     chipRing: "ring-earth-orange/20",
     chipText: "text-earth-orange",
     ringSoft: "ring-white/10",
-    video: VIDEO.amberPour,
     overlay: "bg-gradient-to-t from-[#20130c]/90 via-[#20130c]/40 to-[#20130c]/25",
     numberText: "text-earth-orange/90",
     badgeBg: "bg-earth-orange",
@@ -44,7 +42,6 @@ const ACCENTS: Record<Product["accent"], Accent> = {
     chipRing: "ring-deep-green/15",
     chipText: "text-deep-green",
     ringSoft: "ring-white/40",
-    video: VIDEO.leaves,
     overlay: "bg-gradient-to-t from-[#0d3b1e]/90 via-[#0d3b1e]/40 to-[#0d3b1e]/25",
     numberText: "text-deep-green/80",
     badgeBg: "bg-deep-green",
@@ -75,7 +72,7 @@ function DetailHero({ product, a }: { product: Product; a: Accent }) {
   return (
     <section className="relative min-h-[92vh] overflow-hidden pt-32 sm:pt-40">
       <div className="absolute inset-0 -z-10">
-        <VideoBackdrop src={a.video} poster={img(product.hero, 1600)} overlay={a.overlay} />
+        <ImageBackdrop src={img(product.hero, 1600)} overlay={a.overlay} priority />
       </div>
 
       <div className="container-shell flex min-h-[calc(92vh-10rem)] flex-col justify-end pb-20">

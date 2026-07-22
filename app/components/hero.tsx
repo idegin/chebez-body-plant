@@ -88,10 +88,10 @@ export function Hero() {
               <LeafIcon className="h-16 w-16 -scale-x-100 animate-float-med" />
             </motion.div>
 
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-hero)] shadow-[var(--shadow-card)] ring-1 ring-white/40 sm:aspect-square">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-hero)] shadow-[var(--shadow-card)] ring-1 ring-white/40">
               <VideoBackdrop
-                src={VIDEO.amberPour}
-                poster={img(PHOTO.syrupPour, 900)}
+                src={VIDEO.hero}
+                poster={img(PHOTO.vShelf, 900)}
                 overlay="bg-gradient-to-t from-[#0d3b1e]/80 via-[#0d3b1e]/10 to-transparent"
               />
               <div className="relative flex h-full flex-col justify-end p-7 sm:p-9">

@@ -4,11 +4,11 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { Reveal, Stagger, staggerItem } from "@/app/components/ui/reveal";
 import { KenBurns } from "@/app/components/ui/media";
-import { VideoBackdrop } from "@/app/components/ui/video-backdrop";
+import { ImageBackdrop } from "@/app/components/ui/image-backdrop";
 import { Button } from "@/app/components/ui/button";
 import { CheckIcon, LeafIcon } from "@/app/components/ui/icons";
 import { CTA, type Product } from "@/app/lib/site";
-import { img, VIDEO } from "@/app/lib/media";
+import { img } from "@/app/lib/media";
 
 /**
  * Full-width cinematic product feature block for the listing page.
@@ -31,7 +31,7 @@ function SyrupFeature({ product, index }: { product: Product; index: number }) {
   return (
     <section className="relative overflow-hidden bg-[#20130c] py-24 text-cream sm:py-28 lg:py-32">
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-90">
-        <VideoBackdrop src={VIDEO.amberPour} poster={img(product.hero, 1400)} overlay="bg-[#20130c]/72" />
+        <ImageBackdrop src={img(product.hero, 1400)} overlay="bg-[#20130c]/72" />
       </div>
 
       <div className="container-shell grid items-center gap-14 lg:grid-cols-2">

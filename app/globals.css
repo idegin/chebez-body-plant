@@ -104,6 +104,10 @@
   70% { transform: scale(1.6); opacity: 0; }
   100% { opacity: 0; }
 }
+@keyframes kenburns {
+  0% { transform: scale(1.02) translate(0, 0); }
+  100% { transform: scale(1.14) translate(-1.5%, -1%); }
+}
 
 /* ============================================================================
    Base
@@ -177,6 +181,7 @@
   .animate-blob { animation: var(--animate-blob); }
   .animate-marquee { animation: var(--animate-marquee); }
   .animate-pulse-ring { animation: var(--animate-pulse-ring); }
+  .animate-kenburns { animation: kenburns 22s ease-out infinite alternate; }
 }
 
 /* Respect reduced motion globally */

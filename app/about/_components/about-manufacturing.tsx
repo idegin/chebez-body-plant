@@ -2,9 +2,9 @@
 
 import { motion } from "motion/react";
 import { Reveal, Stagger, staggerItem } from "@/app/components/ui/reveal";
-import { VideoBackdrop } from "@/app/components/ui/video-backdrop";
+import { ImageBackdrop } from "@/app/components/ui/image-backdrop";
 import { CheckIcon } from "@/app/components/ui/icons";
-import { img, PHOTO, VIDEO } from "@/app/lib/media";
+import { img, PHOTO } from "@/app/lib/media";
 
 const PILLARS = [
   {
@@ -25,9 +25,8 @@ export function AboutManufacturing() {
   return (
     <section className="relative overflow-hidden bg-[#20130c] py-24 text-cream sm:py-28 lg:py-32">
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-90">
-        <VideoBackdrop
-          src={VIDEO.pour2}
-          poster={img(PHOTO.qualityLab, 1400)}
+        <ImageBackdrop
+          src={img(PHOTO.qualityLab, 1400)}
           overlay="bg-[#20130c]/78"
         />
       </div>

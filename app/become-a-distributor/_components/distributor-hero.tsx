@@ -1,11 +1,11 @@
 "use client";
 
 import { motion, useReducedMotion } from "motion/react";
-import { VideoBackdrop } from "@/app/components/ui/video-backdrop";
+import { ImageBackdrop } from "@/app/components/ui/image-backdrop";
 import { Button } from "@/app/components/ui/button";
 import { LeafIcon, CheckIcon } from "@/app/components/ui/icons";
 import { staggerContainer, staggerItem } from "@/app/components/ui/reveal";
-import { VIDEO, img, PHOTO } from "@/app/lib/media";
+import { img, PHOTO } from "@/app/lib/media";
 import { CONTACT } from "@/app/lib/site";
 
 const TRUST = [
@@ -18,9 +18,8 @@ export function DistributorHero() {
   const reduce = useReducedMotion();
   return (
     <section className="relative flex min-h-[90vh] items-center overflow-hidden pt-32 pb-20 text-cream sm:pt-40 sm:pb-28">
-      <VideoBackdrop
-        src={VIDEO.leaves}
-        poster={img(PHOTO.harvestHands, 1600)}
+      <ImageBackdrop
+        src={img(PHOTO.hRetail, 1600)}
         overlay="bg-gradient-to-br from-[#0a3d1e]/90 via-[#0a3d1e]/60 to-[#0a3d1e]/92"
       />
 

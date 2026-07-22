@@ -5,6 +5,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { Reveal, Stagger, staggerItem } from "../ui/reveal";
 import { KenBurns } from "../ui/media";
 import { VideoBackdrop } from "../ui/video-backdrop";
+import { ImageBackdrop } from "../ui/image-backdrop";
 import { Button } from "../ui/button";
 import { CheckIcon, LeafIcon } from "../ui/icons";
 import { PRODUCTS } from "@/app/lib/site";
@@ -28,22 +29,19 @@ function SyrupSection() {
   return (
     <section className="relative overflow-hidden bg-[#20130c] py-24 text-cream sm:py-28 lg:py-32">
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-90">
-        <VideoBackdrop
-          src={VIDEO.amberPour}
-          poster={img(syrup.hero, 1400)}
-          overlay="bg-[#20130c]/72"
-        />
+        <ImageBackdrop src={img(syrup.hero, 1400)} overlay="bg-[#20130c]/72" />
       </div>
 
       <div className="container-shell grid items-center gap-14 lg:grid-cols-2">
         {/* Media collage */}
         <Reveal className="relative order-2 lg:order-1">
-          <KenBurns
-            src={img(syrup.gallery[0], 900)}
-            alt="Bodyplant Date Syrup pouring"
-            className="aspect-[4/5] w-full shadow-[var(--shadow-card)] ring-1 ring-white/10"
-            priority
-          />
+          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[var(--radius-image)] shadow-[var(--shadow-card)] ring-1 ring-white/10">
+            <VideoBackdrop
+              src={VIDEO.feature}
+              poster={img(syrup.gallery[0], 900)}
+              overlay="bg-gradient-to-t from-black/25 to-transparent"
+            />
+          </div>
           <motion.div
             className="absolute -bottom-6 -right-4 w-44 overflow-hidden rounded-[var(--radius-image)] shadow-[var(--shadow-card)] ring-4 ring-[#20130c] sm:w-56"
             animate={reduce ? undefined : { y: [0, -12, 0] }}

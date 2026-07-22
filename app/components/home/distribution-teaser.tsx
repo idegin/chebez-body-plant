@@ -2,9 +2,9 @@
 
 import { motion } from "motion/react";
 import { Reveal, Stagger, staggerItem } from "../ui/reveal";
-import { VideoBackdrop } from "../ui/video-backdrop";
+import { ImageBackdrop } from "../ui/image-backdrop";
 import { Button } from "../ui/button";
-import { img, PHOTO, VIDEO } from "@/app/lib/media";
+import { img, PHOTO } from "@/app/lib/media";
 import { CTA } from "@/app/lib/site";
 
 const AUDIENCE = ["Supermarkets", "Pharmacies", "Health stores", "Hotels", "Restaurants", "Bulk buyers", "Retailers", "Distributors"];
@@ -12,7 +12,7 @@ const AUDIENCE = ["Supermarkets", "Pharmacies", "Health stores", "Hotels", "Rest
 export function DistributionTeaser() {
   return (
     <section id="distribution" className="relative overflow-hidden py-28 text-cream sm:py-32">
-      <VideoBackdrop src={VIDEO.leaves} poster={img(PHOTO.kitchen, 1400)} overlay="bg-[#0a3d20]/85" />
+      <ImageBackdrop src={img(PHOTO.hDelivery, 1400)} overlay="bg-[#0a3d20]/85" priority />
 
       <div className="container-shell relative">
         <div className="grid gap-14 lg:grid-cols-2 lg:items-center">

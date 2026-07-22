@@ -1,11 +1,11 @@
 "use client";
 
 import { motion, useReducedMotion } from "motion/react";
-import { VideoBackdrop } from "@/app/components/ui/video-backdrop";
+import { ImageBackdrop } from "@/app/components/ui/image-backdrop";
 import { Button } from "@/app/components/ui/button";
 import { LeafIcon } from "@/app/components/ui/icons";
 import { staggerContainer, staggerItem } from "@/app/components/ui/reveal";
-import { VIDEO, img, PHOTO } from "@/app/lib/media";
+import { img, PHOTO } from "@/app/lib/media";
 import { CTA } from "@/app/lib/site";
 
 const STATS = [
@@ -18,9 +18,8 @@ export function DistributionHero() {
   const reduce = useReducedMotion();
   return (
     <section className="relative flex min-h-[92vh] items-center overflow-hidden pt-32 pb-24 text-cream sm:pt-40 sm:pb-32">
-      <VideoBackdrop
-        src={VIDEO.nature}
-        poster={img(PHOTO.produce, 1600)}
+      <ImageBackdrop
+        src={img(PHOTO.hDelivery, 1600)}
         overlay="bg-gradient-to-b from-[#0a3d1e]/88 via-[#0a3d1e]/60 to-[#0a3d1e]/92"
       />
 

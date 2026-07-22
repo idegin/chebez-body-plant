@@ -73,8 +73,8 @@ export type Product = {
   benefits: string[];
   uses: string[];
   packaging: string[];
-  hero: number;
-  gallery: number[];
+  hero: string;
+  gallery: string[];
   accent: "orange" | "green";
   caffeineFree: boolean;
 };
@@ -101,8 +101,8 @@ export const PRODUCTS: Product[] = [
       "A natural energy boost any time of day",
     ],
     packaging: ["350ml bottle", "500ml bottle", "Bulk / wholesale kegs"],
-    hero: PHOTO.syrupPour,
-    gallery: [PHOTO.goldenSpoon, PHOTO.breakfast, PHOTO.flatlay],
+    hero: PHOTO.hNutrition,
+    gallery: [PHOTO.vStore, PHOTO.hFamily, PHOTO.hNutrition],
     accent: "orange",
     caffeineFree: false,
   },
@@ -127,8 +127,8 @@ export const PRODUCTS: Product[] = [
       "A soothing wind-down drink, morning or night",
     ],
     packaging: ["20 tea bags", "40 tea bags", "Bulk / wholesale cartons"],
-    hero: PHOTO.teaCup,
-    gallery: [PHOTO.teaAmber, PHOTO.teaLeaves, PHOTO.teaPour],
+    hero: PHOTO.hLounge,
+    gallery: [PHOTO.vShelf, PHOTO.hFamily, PHOTO.hNutrition],
     accent: "green",
     caffeineFree: true,
   },
