@@ -33,8 +33,11 @@ export function SiteHeader() {
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
-  // Sub-pages open with a dark video hero → use light header text until scrolled.
-  const onDark = !scrolled && pathname !== "/";
+  // Most sub-pages open with a dark video hero → use light header text until
+  // scrolled. A few pages (e.g. the Products listing) open on a light background,
+  // so the header must stay dark-on-light there to remain readable.
+  const lightHeroRoutes = ["/", "/products"];
+  const onDark = !scrolled && !lightHeroRoutes.includes(pathname);
 
   return (
     <>

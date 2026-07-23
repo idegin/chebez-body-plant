@@ -36,9 +36,9 @@ export const CONTACT = {
 } as const;
 
 export const SOCIALS = [
-  { name: "Instagram", handle: "@bodyplantng", href: "https://instagram.com/bodyplantng", icon: "instagram" },
-  { name: "Facebook", handle: "Bodyplant Nature Resources", href: "https://facebook.com/bodyplantng", icon: "facebook" },
-  { name: "LinkedIn", handle: "Bodyplant Nature Resources", href: "https://linkedin.com/company/bodyplantng", icon: "linkedin" },
+  { name: "Instagram", handle: "@bodyplantnature", href: "https://instagram.com/bodyplantnature", icon: "instagram" },
+  { name: "Facebook", handle: "Bodyplant Nature Resources", href: "https://facebook.com/bodyplantnature", icon: "facebook" },
+  { name: "LinkedIn", handle: "Bodyplant Nature Resources", href: "https://linkedin.com/company/bodyplantnature", icon: "linkedin" },
   { name: "WhatsApp", handle: "Chat with Sales", href: CONTACT.whatsappHref, icon: "whatsapp" },
 ] as const;
 

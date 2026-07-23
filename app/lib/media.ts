@@ -24,6 +24,8 @@ const H = {
 
 // Vertical (3:4) — production & retail, portrait
 const V = {
+  syrup: "/images/v-syrup.png", // Bodyplant Date Syrup product shot (portrait)
+  dateSeed: "/images/v-date-seed.png", // Bodyplant Date Seed Infusion product shot (portrait)
   factory: "/images/v-factory.png", // quality inspection on the line
   factory2: "/images/v-factory-2.png", // production / packaging line
   packing: "/images/v-stores.png", // packing boxes for dispatch
@@ -64,6 +66,8 @@ export const PHOTO = {
   bottles: H.retail,
 
   // portrait roles (use vertical assets)
+  vSyrup: V.syrup,
+  vDateSeed: V.dateSeed,
   vShelf: V.shelf,
   vStore: V.storeBoxes,
   vStocking: V.stocking,

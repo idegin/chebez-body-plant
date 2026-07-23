@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { Reveal } from "./ui/reveal";
-import { SocialIcon } from "./ui/icons";
+import { SocialIcon, MailIcon, ArrowIcon } from "./ui/icons";
 import { NAV, PRODUCTS, SOCIALS, CONTACT, CERTIFICATIONS, CTA, SITE } from "@/app/lib/site";
 import logo from "@/app/brand/body-plant-logo.png";
 
@@ -44,21 +44,25 @@ export function SiteFooter() {
           >
             <label htmlFor="newsletter" className="sr-only">Email address</label>
             <div className="flex flex-col gap-3 sm:flex-row">
-              <input
-                id="newsletter"
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@company.com"
-                className="h-14 flex-1 rounded-[var(--radius-input)] border border-white/20 bg-cream/95 px-5 text-body text-charcoal placeholder:text-muted focus:border-natural-green focus:outline-none"
-              />
+              <div className="relative flex-1">
+                <MailIcon className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted" />
+                <input
+                  id="newsletter"
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="you@company.com"
+                  className="h-14 w-full rounded-[var(--radius-input)] border border-white/20 bg-cream/95 pl-12 pr-4 text-[length:var(--text-small)] text-charcoal placeholder:text-muted focus:border-natural-green focus:outline-none focus:ring-2 focus:ring-natural-green/40"
+                />
+              </div>
               <motion.button
                 type="submit"
                 whileTap={reduce ? undefined : { scale: 0.97 }}
-                className="h-14 shrink-0 rounded-[var(--radius-button)] bg-earth-orange px-7 font-semibold text-pure-white transition-colors duration-300 hover:bg-golden-honey"
+                className="group inline-flex h-14 shrink-0 items-center justify-center gap-2 rounded-[var(--radius-button)] bg-earth-orange px-7 font-semibold text-pure-white shadow-[var(--shadow-cta)] transition-colors duration-300 hover:bg-golden-honey"
               >
                 {sent ? "Subscribed ✓" : "Subscribe"}
+                {!sent && <ArrowIcon className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />}
               </motion.button>
             </div>
             {sent && (

@@ -105,13 +105,13 @@ export function Hero() {
               </div>
             </div>
 
-            <motion.div className="absolute -left-4 top-10 z-20 sm:-left-8" animate={reduce ? undefined : { y: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}>
+            <motion.div className="absolute -left-4 top-10 z-20 hidden sm:block sm:-left-8" animate={reduce ? undefined : { y: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}>
               <BadgeChip>100% Natural</BadgeChip>
             </motion.div>
-            <motion.div className="absolute -right-3 top-1/3 z-20 sm:-right-6" animate={reduce ? undefined : { y: [0, 12, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}>
+            <motion.div className="absolute -right-3 top-1/3 z-20 hidden sm:block sm:-right-6" animate={reduce ? undefined : { y: [0, 12, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}>
               <BadgeChip tone="orange">NAFDAC Certified</BadgeChip>
             </motion.div>
-            <motion.div className="absolute -bottom-3 left-6 z-20" animate={reduce ? undefined : { y: [0, -8, 0] }} transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}>
+            <motion.div className="absolute -bottom-3 left-6 z-20 hidden sm:block" animate={reduce ? undefined : { y: [0, -8, 0] }} transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}>
               <BadgeChip tone="honey">HALAL Certified</BadgeChip>
             </motion.div>
           </motion.div>

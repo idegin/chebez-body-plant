@@ -73,8 +73,8 @@ export function WhyPartner() {
         <Reveal delay={0.1} className="relative">
           <Parallax strength={40}>
             <KenBurns
-              src={img(PHOTO.kitchen, 1100)}
-              alt="Modern Bodyplant production kitchen preparing premium plant-based products"
+              src={img(PHOTO.vFactory2, 1100)}
+              alt="Bodyplant production line preparing premium plant-based products"
               rounded="rounded-[var(--radius-hero)]"
               className="aspect-[4/5] shadow-[var(--shadow-card)]"
               sizes="(max-width: 1024px) 100vw, 45vw"

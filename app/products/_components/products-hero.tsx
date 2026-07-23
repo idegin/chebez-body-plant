@@ -5,8 +5,8 @@ import { motion, useReducedMotion, useScroll, useTransform } from "motion/react"
 import { KenBurns } from "@/app/components/ui/media";
 import { Button } from "@/app/components/ui/button";
 import { LeafIcon } from "@/app/components/ui/icons";
-import { CTA, PRODUCTS } from "@/app/lib/site";
-import { img } from "@/app/lib/media";
+import { CTA } from "@/app/lib/site";
+import { img, PHOTO } from "@/app/lib/media";
 
 /** Products listing hero — editorial intro with a paired media collage. */
 export function ProductsHero() {
@@ -78,7 +78,7 @@ export function ProductsHero() {
         >
           <motion.div style={{ y: yA }}>
             <KenBurns
-              src={img(PRODUCTS[0].hero, 700)}
+              src={img(PHOTO.vSyrup, 700)}
               alt="Bodyplant Date Syrup"
               className="aspect-[3/4] w-full shadow-[var(--shadow-card)] ring-1 ring-white/50"
               priority
@@ -89,7 +89,7 @@ export function ProductsHero() {
           </motion.div>
           <motion.div style={{ y: yB }} className="mt-8">
             <KenBurns
-              src={img(PRODUCTS[1].hero, 700)}
+              src={img(PHOTO.vDateSeed, 700)}
               alt="Bodyplant Date Seed Infusion"
               className="aspect-[3/4] w-full shadow-[var(--shadow-card)] ring-1 ring-white/50"
             />
